@@ -1,3 +1,4 @@
+// I ran out of time and I couldn't figure out how to pull from the json file.
 async function getCoordinates(id){
     let states = []
     
@@ -143,7 +144,7 @@ async function createMap(){
          };
          const simpleFillSymbol = {
             type: "simple-fill",
-            color: rgbo,  // Orange, opacity 80%
+            color: rgbo,  
             outline: {
                 color: [255, 255, 255],
                 width: 1
